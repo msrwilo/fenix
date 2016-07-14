@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style type="text/css">
+.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
+	font-weight: 400
+}
+</style>
+<style type="text/css">
+.gm-style-pbc {
+	transition: opacity ease-in-out;
+	background-color: black;
+	text-align: center
+}
+.gm-style-pbt {
+	font-size: 22px;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<style type="text/css">
+.gm-style .gm-style-cc span, .gm-style .gm-style-cc a, .gm-style .gm-style-mtc div {
+	font-size: 10px
+}
+</style>
+<style type="text/css">
+@media print {
+.gm-style .gmnoprint, .gmnoprint {
+	display: none
+}
+}
+
+@media screen {
+.gm-style .gmnoscreen, .gmnoscreen {
+	display: none
+}
+}
+</style>
+<style type="text/css">
+.gm-style {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	text-decoration: none
+}
+.gm-style img {
+	max-width: none
+}
+
+.cf-hidden {
+	display: none;
+}
+.cf-invisible {
+	visibility: hidden;
+}
+</style>
+<title>Fenix</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/grid.css" class="">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/material-design.css">
+<link rel="stylesheet" href="css/mailform.css">
+<link rel="stylesheet" href="css/subscribe.css">
+<link rel="stylesheet" href="css/google-map.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+<script src="js/device.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7078796-5']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/map.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/marker.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/onion.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/stats.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/25/7/intl/es_ALL/controls.js"></script>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="container">
+        <object data="images/logo.svg" type="image/svg+xml" width="50%" height="50%"></object>
+      <h2>Contáctanos</h2>
+      <div class="booking_form">
+        <form class="mailform rd-mailform" method="post" action="bat/rd-mailform.php">
+          <input type="hidden" name="form-type" value="contact">
+          <fieldset>
+            <label class="mfInput">
+              <input type="text" name="name" data-constraints="@LettersOnly @NotEmpty">
+              <span class="mfValidation"></span><span class="mfIcon"><span></span></span><span class="mfPlaceHolder">Nombre</span></label>
+            <label class="mfInput">
+              <input type="text" name="email" data-constraints="@Email @NotEmpty">
+              <span class="mfValidation"></span><span class="mfIcon"><span></span></span><span class="mfPlaceHolder">Email</span></label>
+            <label class="mfInput">
+              <input type="text" name="phone" data-constraints="@Phone">
+              <span class="mfValidation"></span><span class="mfIcon"><span></span></span><span class="mfPlaceHolder">Telefono</span></label>
+            <div class="mfControls">
+            <label class="mfInput">
+              <textarea name="message" data-constraints="@NotEmpty"></textarea>
+                <span class="mfValidation"></span><span class="mfIcon"><span></span></span><span class="mfPlaceHolder">Mensaje:</span></label>
+            <label>
+              <button class="btn-primary fa-sign-out mfProgress" type="submit"><span class="cnt">Enviar</span><span class="loader"></span><span class="msg"></span></button></label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="well bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+            <article>
+              <div class="thumbnail"><img src="images/page-1_img1.jpg" alt="">
+                <div class="caption">
+                  <h3><a href="#">Básico</a></h3>
+                  <h6>Ideal para Fiestas infantiles</h6>
+                  <p>Dolore cuml dia sed in lacus ut eniascet inger es sitet amet eismod ictor ut
+                    ligulate
+                    ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio.</p>
+                </div>
+              </div>
+              <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+            </article>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+            <article>
+              <div class="thumbnail"><img src="images/page-1_img2.jpg" alt="">
+                <div class="caption">
+                  <h3><a href="#">Formal</a></h3>
+                  <h6>Ideal para XV años</h6>
+                  <p>Dolore cuml dia sed in lacus ut eniascet inger es sitet amet eismod ictor ut
+                    ligulate
+                    ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio.</p>
+                </div>
+              </div>
+              <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+            </article>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+            <article>
+              <div class="thumbnail"><img src="images/page-1_img3.jpg" alt="">
+                <div class="caption">
+                  <h3><a href="#">Elegante</a></h3>
+                  <h6>Ideal para bodas</h6>
+                  <p>Dolore cuml dia sed in lacus ut eniascet inger es sitet amet eismod ictor ut
+                    ligulate
+                    ameti dapib ticdu nt mtsent dolor lte comme. Mes cumldi sed inertio.</p>
+                </div>
+              </div>
+              <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="well">
+      <div class="container">
+        <ul class="row index-list">
+          <li class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+            <h3>Mes cuml dia sed</h3>
+            <h5>Mes cuml dia sed ineniasinge dolor Dolor ipsum commete
+              ipsum.</h5>
+            <p>Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upi disse comete
+              dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore con dime netus
+              lullam utlacus adipiscing ipsum molestie euismod lore estibulum vel libero ipsum sit amet
+              sollicitudin.</p>
+            <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+          </li>
+          <li class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+            <h3>Dolor nunc vule</h3>
+            <h5>Mes cuml dia sed ineniasinge dolor Dolor ipsum commete
+              ipsum.</h5>
+            <p>Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upi disse comete
+              dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore con dime netus
+              lullam utlacus adipiscing ipsum molestie euismod lore estibulum vel libero ipsum sit amet
+              sollicitudin.</p>
+            <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="well1 bg-primary center">
+      <div class="container">
+        <h2 class="wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">Dolor nunc vule</h2>
+        <h5 class="wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">Mes cuml dia sed ineniasinge dolor <br>
+          Dolor ipsum commete ipsum. </h5>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+            <article>
+              <div class="img_wrap"> <img src="images/page-1_img4.jpg" alt="">
+                <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+              </div>
+              <h4>Sed ut perspi</h4>
+              <h6>Lorem ipsum</h6>
+              <p>Lorem ipsum dolor sit amet, consectetu adipisc elit. Proin ultricies vestibulum dum et
+                condimentum metu.</p>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <article>
+              <div class="img_wrap"> <img src="images/page-1_img5.jpg" alt="">
+                <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+              </div>
+              <h4>Sed ut perspi</h4>
+              <h6>Lorem ipsum</h6>
+              <p>Lorem ipsum dolor sit amet, consectetu adipisc elit. Proin ultricies vestibulum dum et
+                condimentum metu.</p>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <article>
+              <div class="img_wrap"> <img src="images/page-1_img6.jpg" alt="">
+                <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+              </div>
+              <h4>Sed ut perspi</h4>
+              <h6>Lorem ipsum</h6>
+              <p>Lorem ipsum dolor sit amet, consectetu adipisc elit. Proin ultricies vestibulum dum et
+                condimentum metu.</p>
+            </article>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <article>
+              <div class="img_wrap"> <img src="images/page-1_img7.jpg" alt="">
+                <div class="btn_wrap"> <a href="#" class="btn"></a> </div>
+              </div>
+              <h4>Sed ut perspi</h4>
+              <h6>Lorem ipsum</h6>
+              <p>Lorem ipsum dolor sit amet, consectetu adipisc elit. Proin ultricies vestibulum dum et
+                condimentum metu.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div id="google-map" class="map_model" data-zoom="13" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
+      </div>
+      <ul class="map_locations">
+        <li data-x="-73.9874068" data-y="40.643180">
+          <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
+        </li>
+      </ul>
+    </section>
+    <section class="well2 bg-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+            <div class="box">
+              <div class="box_aside"> <span class="fa-envelope-o"></span> </div>
+              <div class="box_cnt__no-flow">
+                <h3>Subscribete a <br>
+                  Nuestras Noticias</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+            <div class="subscribe">
+              <form class="mailform rd-mailform" method="post" action="bat/rd-mailform.php">
+                <input type="hidden" name="form-type" value="subscribe">
+                <fieldset>
+                  <label class="mfInput">
+                    <input type="text" name="email" data-constraints="@Email @NotEmpty">
+                    <span class="mfValidation"></span><span class="mfIcon default"><span></span></span><span class="mfPlaceHolder default">Email</span></label>
+                  <div class="mfControls">
+                    <button class="btn-primary mfProgress" type="submit"><span class="cnt">Subscribete</span><span class="loader"></span><span class="msg"></span></button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="copyright"> © <span id="copyright-year">555</span> |
+        rrrrr </div>
+      <ul class="inline-list">
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+<script src="js/script.js"></script><script src="js/jquery.cookie.js"></script><script src="js/jquery.easing.1.3.js"></script><script src="js/tmstickup.js"></script><script src="js/jquery.ui.totop.js"></script><script src="js/rd-smoothscroll.min.js"></script><script src="js/superfish.js"></script><script src="js/jquery.rd-navbar.js"></script><script src="js/jquery.rd-google-map.js"></script><script src="js/wow.js"></script><script src="js/mailform/jquery.form.min.js"></script><script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
+<a href="#" id="toTop" class="toTop fa fa-angle-up" style="display: block;"></a>
+<script type="text/javascript" id="" src="https://tmgadata.appspot.com/js/gabq.js"></script>
+</body>
+</html>
